@@ -1,0 +1,90 @@
+language=Anglais(US)
+date.format.long=yyyy-mm-dd hh:mm:ss
+date.format.short=yyyy-mm-dd
+date.format.hour=hh:mm:ss
+
+permission.cmd.denied=Sorry, you are not allowed to use this commmand
+permission.cmd.denied.desc=Beg the staff for the privilege to use ```%s %s```
+embed.selfDestruct=Auto-destructing at:
+embed.success=Success!
+embed.error=Error!
+embed.warning=Warning!
+
+
+cmd.points=points
+cmd.points.role.desc=bind a role to a number of points
+cmd.points.history=history of changed points
+cmd.points.history.member=the user to check
+cmd.points.role.role.desc=the role to bind
+cmd.points.role.points.desc=the number of points to link or the level of points to remove 
+cmd.points.action=action
+cmd.points.action.set=set
+cmd.points.action.get=view
+cmd.points.action.remove=delete
+cmd.points.add=add,view or remove a number of points to a member
+cmd.points.add.user=the member to view or give points to
+cmd.points.add.points=points to add, use '-' to remove points
+cmd.points.add.reason=a reason for the history
+cmd.use.points.set=%s is now  at %d points
+cmd.use.points.get=%s have %d points
+cmd.use.points.error.set=You must give a role and a number of points
+cmd.use.points.delGrade=The number of points **%d** have been remove
+cmd.use.points.error.remove=You must give a number of points to remove
+
+cmd.admin=admin
+cmd.admin.language=language
+cmd.admin.language.desc=change the language of the bot (and commands)
+cmd.admin.perms.desc=change perms of a command
+cmd.admin.perms=perms
+cmd.language.value=the language
+cmd.admin.perms.command=the command to modify
+cmd.admin.perms.perm=admin: only those with the admin perm, owner: the owner of the guild, all: everyone, reset:default
+
+cmd.admin.tokens.desc=assign personal tokens for some of the bot's api.
+cmd.admin.tokens=tokens
+cmd.admin.tokens.type=token type or informations for more informations
+cmd.admin.tokens.type.info=informations
+cmd.admin.tokens.type.google=google
+cmd.admin.tokens.token=The token itself
+cmd.use.admin.tokens.info.title=Infos for each token type\nnot using the 'token' parameter while delete a set token
+cmd.admin.type.google.desc=Used for youtube search
+cmd.use.admin.tokens.set="Token for '%s' have been set to '%s'
+cmd.use.admin.tokens.del="Token for '%s' have been deleted
+
+generic.perms.reset=reset
+generic.perms.admin=admin
+generic.perms.owner=owner
+generic.perms.all=all
+cmd.use.admin.language.set=The Language have been changed successfully! \n Wait a momment for the commands to reload
+cmd.use.admin.perms.set=** %s** can now be used by **%s**
+cmd.use.admin.perms.denied=You don' have the perms required to change **%s**
+
+cmd.leaderboard=leaderboard
+cmd.leaderboard.desc=Top Scores of the server
+cmd.leaderboard.title=Leaderboard
+
+cmd.meme=meme
+cmd.meme.desc=send a random meme from reddit
+cmd.meme.sub=a target subreddit to fetch the image from
+cmd.use.meme.error=Sub not found
+cmd.use.meme.error.1=Failded loading
+cmd.use.meme.from=From %s
+
+
+cmd.play=play
+cmd.play.desc=Add a music to play, searching on youtube or using direct link
+cmd.play.link=A search word for youtube or a direct link to a song/ playlist
+cmd.use.play.list.title=Pick One:
+cmd.use.play.playing=Now Playing %s
+cmd.use.play.added=Added %s to the queue
+cmd.use.play.failloading=Failed to load %s
+
+cmd.queue=playlist
+cmd.queue.desc=List of queued songs
+cmd.come.desc=Force the bot to join your voice channel and display the control panel in this channel
+cmd.use.come.joining=Joining %s
+cmd.use.come.error=You are not in a voice channel
+player.no_content=Nothing to play
+player.notinchannel=You are not in the bot's voice channel!
+player.playing=Now Playing %s
+player.clear=Clear

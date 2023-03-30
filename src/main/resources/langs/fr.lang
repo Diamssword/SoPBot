@@ -1,0 +1,81 @@
+language=Français
+date.format.long=dd/mm/yyyy hh:mm:ss
+date.format.short=dd/mm/yyyy
+date.format.hour=hh:mm:ss
+
+permission.cmd.denied=Désolé, vous n'avez pas le droit d'utiliser cette commande!
+permission.cmd.denied.desc=Suppliez le staff pour qu'il vous autorise a utiliser ```%s %s``` ...Si ils veulent bien!
+embed.selfDestruct=Auto-destruction à:
+embed.success=Succès!
+embed.error=Erreur!
+embed.warning=Attention!
+
+
+cmd.points=points
+cmd.points.role.desc=lie un rôle a un nombre de points
+cmd.points.history=historique des changements de points
+cmd.points.history.member=l'utilsateur à consulter
+cmd.points.role.role.desc=le rôle a lier
+cmd.points.role.points.desc=les pallier de points à lier ou le pallier a supprimer
+cmd.points.action=action a effectuer
+cmd.points.action.set=definir
+cmd.points.action.get=voir
+cmd.points.action.remove=supprimer
+cmd.points.add=ajoute,visualise ou enleve un certains nombre de points à un membre
+cmd.points.add.user=le membre à voir où à qui donner des points
+cmd.points.add.points=les points à ajouter, utilisez '-' pour en enlever
+cmd.points.add.reason=une reason d'ajout de points pour l'historique
+cmd.use.points.set=%s est maintenant à %d points
+cmd.use.points.get=%s a %d points
+cmd.use.points.error.set=Vous devez preciser un role et un nombre de points
+cmd.use.points.delGrade=Le pallier de %d points à été supprimé
+cmd.use.points.error.remove=Vous devez preciser un nombre de points pour le pallier a supprimer
+
+cmd.admin=admin
+cmd.admin.language=langue
+cmd.admin.language.desc=change la langue du bot (et les commandes)
+cmd.admin.perms.desc=change les perissions d'une commande
+cmd.admin.perms=perms
+cmd.language.value=la langue
+cmd.admin.perms.command=la commande à modifer
+cmd.admin.perms.perm=admin: seul ceux avec la perm admin, proprio: le createur de la guild, tous: tout le monde, reset:par defaut
+generic.perms.reset=reset
+generic.perms.admin=admin
+generic.perms.owner=proprio
+generic.perms.all=tous
+cmd.use.admin.language.set=La langue a été changée avec succés!\n Patientez un instant pour que les commandes ce rechargent
+cmd.use.admin.perms.set=** %s** peut maintenant être utilisé par **%s**
+cmd.use.admin.perms.denied=Vous n'avez pas les permissions nécessaire pour changer **%s**
+
+cmd.admin.tokens.desc=assigne des tokens personnel pour certains api du bot.
+cmd.admin.tokens=tokens
+cmd.admin.tokens.type=type du token ou 'infos' pour plus d'infos
+cmd.admin.tokens.type.info=infos
+cmd.admin.tokens.type.google=google
+cmd.admin.tokens.token=Le token lui même
+cmd.use.admin.tokens.info.title=Infos pour chaque type de token\nNe pas utiliser le champ 'token' supprimera le token existant
+cmd.admin.type.google.desc=Utilisé pour les recherches youtubes
+cmd.use.admin.tokens.set="Le token pour '%s' a été assigné à '%s'
+cmd.use.admin.tokens.del="Le token pour '%s' a été supprimé
+
+cmd.leaderboard=leaderboard
+cmd.leaderboard.desc=Tableaux des top scores du serveur
+cmd.leaderboard.title=Leaderboard
+
+cmd.play=play
+cmd.play.desc=Ajoute une musique a jouer, en cherchant un texte ou avec un lien youtube
+cmd.play.link=Un texte de recherche ou un lien direct vers une musique/ playlist
+cmd.use.play.list.title=CHoissiez un titre:
+cmd.use.play.playing=Lecture de %s
+cmd.use.play.added=%s ajouté à la file
+cmd.use.play.failloading=Erreur de chargement de %s
+
+cmd.queue=playlist
+cmd.queue.desc=List of queued songs
+cmd.come.desc=Force le Bot à rejoindre votre salon vocal et affiche ses controls
+cmd.use.come.joining=Connexion à %s
+cmd.use.come.error=Vous n'êtes pas dans un salon vocal
+player.no_content=Rien à jouer.
+player.notinchannel=Vous n'êtes pas dans le salon vocal du Bot!
+player.playing=Lecture de %s
+player.clear=Vider
